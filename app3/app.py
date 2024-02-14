@@ -11,7 +11,7 @@ def hello(nome=""):
 @app.route('/blog/<int:postID>')
 def blog(postID= -1):
     if postID >= 0:
-        return "blog infos {}".format(postID)
+        return "blogs infos {}".format(postID)
     else:
         return "Blog todo"
 
