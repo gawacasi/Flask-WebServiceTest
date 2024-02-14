@@ -13,7 +13,7 @@ def blog(postID= -1):
     if postID >= 0:
         return "blogs infos {}".format(postID)
     else:
-        return "Blog todo"
+        return "Blogs todo"
 
 if __name__ == '__main__':
     app.run(debug=True)
